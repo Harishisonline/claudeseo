@@ -1,0 +1,10 @@
+{
+  "name": "claudeseo",
+  "version": "1.0.0",
+  "description": "One skill that runs a full SEO + GEO (AI search) team: onboarding, guided setup of five free tools, a merged read-only audit (SEO-AUDIT.md) and code fixes with before/after scores.",
+  "author": { "name": "Harish Pradhan", "url": "https://github.com/Harishisonline" },
+  "homepage": "https://github.com/Harishisonline/claudeseo",
+  "repository": "https://github.com/Harishisonline/claudeseo",
+  "license": "MIT",
+  "keywords": ["seo", "geo", "ai-search", "search-console", "llms-txt", "schema", "audit"]
+}

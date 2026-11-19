@@ -1,0 +1,5 @@
+.DS_Store
+*.skill
+client_secrets*.json
+*token*.json
+.env

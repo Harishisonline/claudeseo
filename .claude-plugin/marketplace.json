@@ -1,0 +1,13 @@
+{
+  "name": "claudeseo",
+  "owner": { "name": "Harish Pradhan", "url": "https://github.com/Harishisonline" },
+  "description": "ClaudeSEO: one skill that runs a full SEO + AI-search (GEO) team on five free tools.",
+  "plugins": [
+    {
+      "name": "claudeseo",
+      "source": "./plugins/claudeseo",
+      "description": "Onboards you, sets up Claude SEO, GEO SEO Claude, GEO Optimizer, Search Console and OpenSEO, then audits and fixes your site for Google and AI search.",
+      "category": "SEO"
+    }
+  ]
+}
