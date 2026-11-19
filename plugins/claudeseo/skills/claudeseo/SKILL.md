@@ -20,6 +20,11 @@ the user's business.
 
 If the agent has no slash commands, use the matching skill or MCP tool instead.
 
+**Bundled edition:** if a `tools/` folder sits next to this file, the first four tools'
+instructions and scripts are inside this skill. Use them whenever the installed tools are
+missing (Cowork, claude.ai, sandboxes): read `references/bundled-tools.md` first. It maps
+every path and command the tools expect to its bundled location.
+
 ## Profiles
 
 Each site the user works on has a profile at `~/.claudeseo/profiles/<domain>.md`. It
@@ -51,7 +56,8 @@ bash <this skill's folder>/scripts/check_tools.sh
 It reports which of the five tools are installed and which still need a login. A tool that
 isn't ready is not a blocker: skip it, keep going, and say at the top of the result which
 tool didn't run and why. A report that silently omits a tool reads as "no problems found",
-which is the wrong conclusion.
+which is the wrong conclusion. In the bundled edition, a tool the script reports missing
+usually has a bundled copy: use that before skipping it.
 
 ## Ground rules (why they exist)
 

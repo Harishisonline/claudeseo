@@ -22,6 +22,21 @@ Restart Claude Code, then say:
 Start ClaudeSEO
 ```
 
+### Claude Cowork / claude.ai
+
+Cowork can't install Claude Code plugins, so there's a **bundled edition**: one skill with
+Claude SEO, GEO SEO Claude, GEO Optimizer and OpenSEO's skills and scripts inside.
+
+1. Download `claudeseo.skill` from the [latest release](https://github.com/Harishisonline/claudeseo/releases/latest).
+2. Go to [claude.ai/settings/capabilities](https://claude.ai/settings/capabilities), turn on
+   code execution, then **Skills → Upload skill** and pick the file.
+3. Add OpenSEO as a connector: **Settings → Connectors → Add custom connector** with URL
+   `https://app.openseo.so/mcp`.
+
+Search Console isn't bundled, because it runs as a local server. Screenshot and speed checks
+need a browser the sandbox may not have, and the audit lists anything it skipped.
+To rebuild the bundle yourself: `bash bundle/build.sh` (output in `dist/`).
+
 ## What happens on first run
 
 1. **Learns about you.** Your website, what you sell, your audience and goal, competitors,
