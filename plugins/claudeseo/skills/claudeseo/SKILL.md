@@ -57,7 +57,9 @@ which is the wrong conclusion.
 
 - **Only real findings.** Every item needs proof: a number, a URL or a tool's output. SEO
   advice without evidence is the generic advice the user could get anywhere.
-- **Credits cost money.** OpenSEO's free plan is $0.50 (~10 keyword lookups at ~$0.05).
+- **Credits cost money.** OpenSEO's free plan is 500 credits (50 US cents). For example,
+  metrics for 8 keywords cost about 15 credits, and a page-1 Google check costs about 5 per keyword.
+  Check the balance with the free `whoami` tool before and after, and report what was used.
   State the expected cost and get a yes before any call that spends credits. Search
   Console data and saved OpenSEO results are free.
 - **Secrets stay secret.** Never print, paste, save to a profile or commit

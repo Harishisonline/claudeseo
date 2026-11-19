@@ -65,8 +65,13 @@ User makes a free account at https://openseo.so (no card). Then:
 claude plugin marketplace add every-app/open-seo
 claude plugin install openseo@openseo       # adds MCP server + 12 openseo:* skills
 ```
-Other agents: add the HTTP MCP server `https://app.openseo.so/mcp`. The user logs in via
-`/mcp` → openseo. Rank checks need the paid plan ($10/month). Warn before anything uses
+The user logs in via `/mcp` → openseo → Authenticate. If `/mcp` isn't available (the Claude
+desktop app) or they'd rather not use a terminal, add it on claude.ai instead: Settings →
+Connectors → Add custom connector → URL `https://app.openseo.so/mcp` → Connect. Other
+agents: add the HTTP MCP server `https://app.openseo.so/mcp`. Confirm with the free
+`whoami` tool. OpenSEO has no API key; the browser login is the only way in. Credits are
+counted in units (the free plan starts at 500), so check `whoami` before and after
+paid calls and report the exact number used. Rank checks need the paid plan ($10/month). Warn before anything uses
 credits.
 
 ## Finish

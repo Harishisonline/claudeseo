@@ -110,9 +110,14 @@ Continue.
 
 **OpenSEO.**
 1. Make a free account at https://openseo.so (no card).
-2. Install the plugin if missing (setup.md step 5).
-3. In Claude Code, type `/mcp`, choose **openseo**, and sign in. The agent can't do this
-   step for them.
+2. Connect it one of two ways. The agent can't do the sign-in for them.
+   - **claude.ai connector (easiest, works in the Claude desktop app):** open
+     https://claude.ai/settings/connectors → **Add custom connector** → name `OpenSEO`,
+     URL `https://app.openseo.so/mcp` → Add → Connect → log in and approve. Its tools then
+     appear in Claude Code sessions on the same account.
+   - **Plugin + /mcp (terminal Claude Code):** install the plugin if missing (setup.md
+     step 5), type `/mcp`, choose **openseo**, then Authenticate.
+3. Check it with the OpenSEO `whoami` tool (free). It shows the credit balance.
 4. Remind them: free credits are $0.50 (about 10 keyword lookups). You'll always ask
    before spending them.
 
